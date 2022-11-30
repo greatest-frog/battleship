@@ -1,0 +1,29 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "My version of Battleship game with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "watch": "webpack --watch -mode=development",
+    "watch jest": "jest -- watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatest-frog/battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greatest-frog/battleship/issues"
+  },
+  "homepage": "https://github.com/greatest-frog/battleship#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
